@@ -1,0 +1,521 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.box{
+	max-width: 1140px;
+	background: #fff;
+	margin: auto;
+}
+
+.menu-search{
+	max-width: 1050px;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+}
+
+.box-header-1{
+	width: 1140px;
+	height: 50px;
+	background: #ba2e1f;
+	overflow: hidden;
+}
+
+.box-header-2{
+	margin-top: 10px;
+} 
+
+.box-header-2 ul{
+	list-style-type: none;
+}
+
+.box-header-2 ul li{
+	float: left;
+	padding: 3px;
+}
+
+.box-header-2 ul li a{
+	text-decoration: none;
+	color: #fff;
+	border-right: 1px solid #fff;
+	padding-right: 10px;
+}
+
+.box-header-2 ul li:last-child a{
+	border-right: none;
+}
+
+.search{
+	margin-top: 10px;
+}
+
+/*-------------------------------------*/
+
+.logo-icon{
+	max-width: 1050px;
+	margin: auto;
+	margin-top: 35px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.menu{
+	max-width: 1050px;
+	height: 50px;
+	background: #333;
+	margin: auto;
+	margin-top: 30px;
+	border: 2px solid #333;
+	border-radius: 5px;
+}
+
+.menu ul{
+	list-style-type: none;
+}
+.menu ul li{
+	float: left;
+	padding: 18px;
+}
+.menu ul li a{
+	text-decoration: none;	
+	color: #e9e8e3;
+}
+
+.content-text{
+	width: 1050px;
+	margin: auto;
+	display: flex;
+	margin-top: 30px;
+}
+
+.text-content{
+	margin-left: 50px;
+	margin-top: 50px;
+}
+
+.text-content h2{
+	font-size: 97px;
+}
+
+.text-content p{
+	font-size: 21px;
+}
+
+.text-content a{
+	font-size: 18px;	
+	float: right;
+	margin-top: 18px;
+	text-decoration: none;
+	color: #ba2e1f;
+}
+
+/*-----------------------------------------*/
+
+.footer-secton{
+	max-width: 1140px;
+	background: #f2f2f2;
+	margin-top: -4px;
+	height: 600px;
+}
+
+.footer-secton-1{
+	width: 1050px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.pic{
+	border: 1px solid #fff;
+	padding: 6px 4px;
+	margin: 17px 38px;
+	margin-left: 4px;
+}
+
+.footer-item p{
+	margin-top: 20px;
+	font-size: 20px;
+	color: #999999;
+}
+
+.footer-item a{
+	text-decoration: none;
+	float: right;
+	font-size: 20px;
+	margin-right: 40px;
+	margin-top: 28px;
+	color: #d24260;
+}
+
+.img-2 {
+	margin-top: 17px;
+	width: 20%;
+	margin-right:25px;
+}
+
+.item{
+	display: flex;
+	margin-top: 20px;
+}
+
+.img-2 img {
+	margin-bottom: 50px;
+}
+
+.text{
+	margin-top: 26px;
+}
+.text-1{
+	margin-top: -18px;
+}
+.text-1 h2{
+	font-size: 19px;
+	color: #999999;
+}
+.text-1 p{
+	font-size: 17px;
+	margin-top: 7px;
+}
+
+.text-2{
+	margin-top: 51px;
+}
+
+.text-2 h2{
+	font-size: 19px;
+	color: #999999;
+}
+
+.text-2 p{
+	font-size: 17px;
+	margin-top: 9px;
+}
+
+.text-3{
+	margin-top: 46px;
+}
+
+.text-3 h2{
+	font-size: 19px;
+	color: #999999;
+}
+
+.text-3 p{
+	font-size: 17px;
+	margin-top: 9px;
+}
+
+.text-4{
+	margin-top: 47px;
+}
+
+.text-4 h2{
+	font-size: 19px;
+	color: #999999;
+}
+
+.text-4 p{
+	font-size: 17px;
+	margin-top: 5px;
+}
+
+.text a{
+	margin-right: 20px;
+	margin-top: 35px;
+}
+
+
+
+.footer-item{
+	margin-top: 22px;
+	width: 340px;
+}
+
+.item-1{
+	margin-top: 10px;
+}
+.item-1 h2{
+	font-size: 21px;
+	float: right;
+ 	margin-top: 25px;
+	margin-right: 80px;		
+	color: #999999;
+}
+
+.footer{
+	margin-top: 30px;
+}
+
+.item-1 img{
+	margin-top: 20px;
+}
+
+.item-1 p{
+	font-size: 16px;
+}
+
+.item-1 a{
+	font-size: 20px;
+	color: #fff;
+
+	color: #d24260;
+	margin-top: 21px;
+}
+
+.item-1-2{
+	margin-top: 79px;
+}
+
+/*----------------------------------*/
+
+.contentr{
+	max-width: 1140px;
+	background: #fff;
+	margin: auto;
+	overflow: hidden;
+	height: 500px;
+}
+
+.contentr-2{
+	width: 1050px;
+	margin: auto;
+	display: flex;
+	margin-top: 30px;
+}
+
+.latest{
+	width: 298px;
+	margin-top: 20px;
+	border-top: 2px solid #666666;
+}
+
+.latest h2{
+	font-size: 25px;
+	color: #666666;
+}
+
+.latest p{
+	font-size: 20px;
+	color: #666666;
+	margin-top: 20px;
+}
+
+.latest span{
+	color: #b92d1f;
+}
+
+/*-------------------------------*/
+
+.links{
+	width: 200px;
+	margin-left: 20px;
+	margin-top: 20px;
+	border-top: 2px solid #666666;
+}
+
+.links h2{
+	font-size: 25px;
+	color: #666666;
+}
+
+
+
+
+.top ul{
+	list-style-type: none;
+}
+
+.top ul li{
+	margin-top: 17px;
+	border-bottom: 2px solid #333;
+}
+
+.top ul li a{
+	text-decoration: none;
+	color: #666666;
+}
+
+
+/*------------------------*/
+.posts{
+	width: 251px;
+	margin-left: 23px;
+	margin-top: 20px;
+	border-top: 2px solid #666666;
+}
+
+.posts h2{
+	font-size: 24px;
+	color: #666666;	
+}
+
+.post-title{
+	margin-top: 16px;
+}
+
+.post-title span{
+	color: #b92d1f;
+}
+.post-title h2{
+	font-size: 29px;
+	color: #666666;
+}
+
+.post-title h3{
+	font-size: 19px;
+	color: #666666;
+}
+
+.post-title h4{
+	font-size: 18px;
+	color: #666666;
+}
+
+.post-title p{
+	margin-top: 12px;
+	font-size: 17px;
+	color: #666666;
+}
+
+.post-title a{
+	text-decoration: none;
+	float: right;
+	margin-top: 15px;
+}
+
+
+.post-title-2{
+	margin-top: 39px;
+}
+
+.post-title-2 span{
+	color: #b92d1f;
+}
+.post-title-2 h2{
+	font-size: 29px;
+	color: #666666;
+}
+
+.post-title-2 h3{
+	font-size: 19px;
+	color: #666666;
+}
+
+.post-title-2 h4{
+	font-size: 18px;
+	color: #666666;
+}
+
+.post-title-2 p{
+	margin-top: 12px;
+	font-size: 17px;
+	color: #666666;
+}
+
+.post-title-2 a{
+	text-decoration: none;
+	float: right;
+	margin-top: 15px;
+}
+
+
+
+/*-------------------------*/
+.contact{
+	width: 200px;
+	margin-left: 40px;
+	margin-top: 20px;
+	border-top: 2px solid #666666;
+}
+
+.contact h2{
+	font-size: 29px;
+	color: #666666;
+}
+
+.name input{
+	padding: 9px 30px;
+	margin-top: 20px;
+	border: 1px solid #333;
+	border-radius: 5px;
+	background: #f2f2f2;
+}
+
+.email input{
+	padding: 9px 30px;
+	margin-top: 10px;
+	border: 1px solid #333;
+	border-radius: 5px;
+	background: #f2f2f2;
+}
+
+.subject input{
+	padding: 9px 30px;
+	margin-top: 10px;
+	border: 1px solid #333;
+	border-radius: 5px;
+	background: #f2f2f2;
+}
+
+.message input{
+	padding: 56px 30px;
+	margin-top: 10px;
+	border: 1px solid #333;
+	border-radius: 5px;
+	background: #f2f2f2;
+}
+
+.btn {
+	margin-top: 30px;
+}
+.btn a{
+	text-decoration: none;
+	padding: 10px 20px;
+	border: 1px solid blue;
+	border-radius: 5px;
+	background: #f2f2f2;
+	color: #ba2e1f;
+}
+
+/*-------------------------------*/
+
+.content-copyright{
+	max-width: 1140px;
+	height: 50px;
+	background: #f2f2f2;	
+	overflow: hidden;
+}
+
+.copyright{
+	width: 1050px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 18px;
+}
+
+.copyright-1 h2{
+	font-size: 15px;
+	color: #919191;
+}
+
+.copyright-2 h2{
+	font-size: 15px;
+	color: #919191;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
